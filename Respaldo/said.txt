@@ -1,0 +1,14 @@
+=====RESUMEN========
+
+El presente proyecto de tesis consiste en desarrollar una plataforma en el que se puedan anunciar artesanías mexicanas, con el objetivo de impulsar el desarrollo social, económico y cultural en México, en donde los usuarios podrán vender diferentes tipos de artesanías mexicanas de diversas partes o estados de la república mexicana y estos usuarios puedan describir detalles e historia de sus productos, actualizar cada uno de ellos y manipular sus propios productos. Por otra parte, otros usuarios puedan conocer todo el arte, cultura y tradición que tiene México, además de poder hacer compras de todos los productos que se muestran y a través de la plataforma, poder establecer negocios o proyectos con las personas u organizaciones que crean estas artesanías mexicanas, para poder brindar todo tipo de oportunidades a los usuarios. 
+La plataforma se creará con los recursos necesarios para su funcionamiento y que sea una plataforma exclusiva de artesanías mexicanas que contenga contenido y funciones que a los usuarios les sea más conveniente y satisfactorio su uso, así como dar a conocer con mayor facilidad el contenido a usuarios que sean de diversos países.
+La gran variedad de productos artesanales que se podrán encontrar como ejemplo, son: 
+●	Talavera (Puebla).
+●	Alebrijes (Oaxaca).
+●	Platería (diferentes artículos de oro, plata y piedras preciosas).
+●	Textiles bordados a mano (diferentes tipos a escala nacional).
+●	Arte Huichol (Nayarit y Jalisco).
+Muebles de madera, cerámica y artículos de decoración en barro (región sureste).
+
+
+=====Antecedentes del Proyecto ============

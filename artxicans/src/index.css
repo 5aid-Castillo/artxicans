@@ -1,0 +1,76 @@
+
+/* Custom Properties */
+:root{
+  --first-color: #FEB439;
+  --first-alpha-color: #FDD100;
+  --second-color: #7D3C98;
+  --second-alpha-color: #6669c5;
+  --black-color: black;
+  --white-color: white;
+  --black-alpha-color: rgba(0,0,0,0.5);
+  --white-alpha-color: rgba(255,255,255,0.5);
+  --opacity-color: rgba(8,75,138,0.7);
+  --font: "RaleWay",sans-serif;
+  --max-width: 1200px;
+  --header-height: 5.2rem;
+  --link-color: #509ee3;
+}
+
+/* Reset */
+html{
+  box-sizing: border-box;
+  font-family: var(--font);
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before{
+  box-sizing: inherit;
+}
+body{
+  margin: 0;
+  overflow-x: hidden;
+  color: var(--black-color);
+}
+a{
+  color: var(--link-color);
+  transition: all 0.5s ease-out; 
+}
+a:hover{
+  opacity: 0.75;
+}
+h1{
+  margin: 0;
+  font-size: 2rem;
+}
+h2{
+  margin: 0;
+  font-size: 1.5rem;
+}
+h3{
+  margin: 0;
+  font-size: 1.25rem;
+}
+h4{
+  margin: 0;
+  font-size: 1rem;
+}
+h5{
+  margin: 0;
+  font-size: 0.85rem;
+}
+h6{
+  margin: 0;
+  font-size: 0.7rem;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+p{
+  line-height: 1.6;
+}
+
+

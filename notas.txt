@@ -1,0 +1,30 @@
+
+==================Phone Screen====================
+abajo=> 
+Artxican 
+navbar --> 
+	Home
+	Categories
+	others
+	
+
+
+arriba=>
+buscador
+carrito
+cuenta
+
+
+=============Desktop Screen ======================
+abajo=>
+NA
+
+arriba=>
+artxican
+Home
+Categories
+Others
+Cart
+Cuenta
+
+https://es.reactjs.org/docs/handling-events.html

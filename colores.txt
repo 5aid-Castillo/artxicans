@@ -1,0 +1,27 @@
+Colores de la Aplicacion
+
+color amarillo 
+
+	 #ff9f00
+	 #fdd100
+	#FABB53
+	FEB439
+	
+Color negro
+
+	black
+
+Color blanco
+	white
+
+
+
+ULTIMO COLOR POSIBLE
+
+Color Morado
+	#4630ab (mmm)
+	#6314a8	(mmm)
+	#6669c5
+	#6314a8
+	#7D3C98
+Color 
