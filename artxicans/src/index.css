@@ -12,7 +12,7 @@
   --opacity-color: rgba(8,75,138,0.7);
   --font: "RaleWay",sans-serif;
   --max-width: 1200px;
-  --header-height: 5.2rem;
+  --header-height: 4.7rem;
   --link-color: #509ee3;
 }
 
@@ -40,6 +40,7 @@ body{
   margin: 0;
   overflow-x: hidden;
   color: var(--black-color);
+  background-color: rgb(240, 240, 240);;
 }
 a{
   color: var(--link-color);

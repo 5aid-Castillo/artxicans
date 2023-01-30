@@ -16,23 +16,25 @@ const Navbar = () => {
         </button>
         <div className={mostrarBarra ?"navigation-menu" : "navigation-menu expanded"}>
           
-             <ul>
-
-              
+            <ul >
               <li>
-                <NavLink to="/Categories">Categories <img className="arrow" src={mostrarBarra ? arrowri : arrow} alt="arrow"/></NavLink>
+                <NavLink to="/Categories"><a className="icon1" href="index.html">Categories<img className="arrow" src={mostrarBarra ? arrowri : arrow} alt="arrow"/></a></NavLink>
+                            
               </li>
               <li>
                 <NavLink to="/Purchases">My Purchases</NavLink>
+              
               </li>
               <li>
                 <NavLink to="/Sell">Sell</NavLink>
+              
               </li>
               <li>
                 <NavLink to="/Help">Help</NavLink>
+              
               </li>
               <li>
-                 <NavLink to=""><a className="icon1" href='index.html'><img src={cart} alt="cart" className='cart'/></a></NavLink>
+                 <NavLink to=""><a className="icon1" href='index.html'><img src={cart} alt="cart" className='cart'/><span className="item_total">0</span></a></NavLink>
               </li>
               <li>
                 <NavLink to=""><a className="icon1" href='index.html'><img src={profile} alt="profile" className='profile'/>Account</a></NavLink>
