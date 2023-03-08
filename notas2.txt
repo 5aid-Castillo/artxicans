@@ -1,0 +1,6 @@
+Notas para tesis:
+
+Usamos react-router-dom para que no se refresque la pagina, porque cada vez que se refresca
+va al servidor y tiene que traer todos los archivos de vuelta.
+La idea de estas paginas de react o aplicaciones modernas es hacer esto que se llama "single page application"
+o aplicaciones de una sola pagina
