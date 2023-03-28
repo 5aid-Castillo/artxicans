@@ -1,0 +1,51 @@
+.burger-btn{
+    display: block;
+    background-color: var(--second-alpha-color);
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: thin solid var(--second-color);
+    padding: 0rem 0.1rem;
+    z-index: 999;
+}
+.logo a{
+    font-family: 'Bungee Inline', cursive;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--black-color);
+}
+.logo > a > img{
+    
+    width: 30px;
+    height: 30px;
+    clip-path: polygon(50% 0%, 100% 50%,50% 100%,0% 50%);
+    transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+}
+.logo > a > img:hover{
+    clip-path: polygon(100% 0%,100% 100%, 0% 100%,0% 0%);
+}
+
+.rounded-logo:hover{
+    clip-path: polygon(50% 0%, 100% 50%,50% 100%,0% 50%);
+    -o-clip-path: polygon(50% 0%, 100% 50%,50% 100%,0% 50%);
+	clip-path: polygon(50% 0%, 100% 50%,50% 100%,0% 50%);
+	transition: all 1s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+}
+@media screen and (min-width:769px){
+    .burger-btn{
+        display: none;
+    }
+
+    .logo > a > img{
+        width: 40px;
+        height: 40px;
+    }
+    .logo > a{
+        
+        font-size: 1.5rem;
+    }
+}

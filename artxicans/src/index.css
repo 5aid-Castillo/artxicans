@@ -1,7 +1,7 @@
 
 /* Custom Properties */
 :root{
-  --first-color: #FEB439;
+  --first-color: #feb439;
   --first-alpha-color: #FDD100;
   --second-color: #7D3C98;
   --second-alpha-color: #6669c5;
@@ -14,6 +14,8 @@
   --max-width: 1200px;
   --header-height: 4.7rem;
   --link-color: #509ee3;
+  --card-bg:rgb(225,225,235);
+  --card-hover:rgb(255,255,255);
 }
 
 /* Reset */
@@ -45,6 +47,10 @@ body{
 a{
   color: var(--link-color);
   transition: all 0.5s ease-out; 
+  text-decoration: none;
+}
+li{
+  list-style: none;
 }
 a:hover{
   opacity: 0.75;
@@ -80,5 +86,15 @@ img{
 p{
   line-height: 1.6;
 }
+.grid{
+  display: grid;
+  align-items: center;
+}
 
+/* Por si un usuario quiere tiene algun monitos grande o hacen un zoom de > 125% */
+@media screen and (min-width:2560px){
+    body{
+      zoom:1.7;
+    }
+}
 

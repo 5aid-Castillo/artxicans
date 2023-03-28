@@ -1,0 +1,109 @@
+.header{
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--first-color);
+  width: 100%;
+  padding: .7rem;
+  z-index: 1000;
+  bottom: 0;
+}
+
+@media screen and (max-width:768px){
+  .navbar{
+
+    background-color: hsl(238, 45%, 59%);
+    position: absolute;
+    height: max-content;
+    padding: 1rem;
+    width: 100%;
+    bottom: 0;
+    right: -500%;
+    box-shadow: 0 2px 4px rgba(209,209,209,0.904);
+    transition: 0.8s ease;
+    z-index: 1000;
+
+    .navList{
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      margin: auto;
+
+      .navItem{
+        padding: .5rem 0;
+        text-align: center;
+        .navLink{
+          color: var(--white-color);
+          font-size: 1rem;
+          font-weight: 600;
+          &:hover{
+            color: var(--first-color);
+            text-decoration: none;
+          }
+        }//navLink
+      }//navItem
+      
+    }//navList
+
+  } //navbar
+  .active{
+    right:0;
+    margin-bottom: 4.4rem; 
+  }
+}
+@media screen and (min-width:769px){
+  .header{
+    position: sticky;
+    top:0;
+    padding: 1.9rem 2rem;
+    height: 0;
+    border-bottom: 3px solid var(--second-alpha-color);
+
+    .navbar{
+
+      .navList{
+        margin-top: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+
+        .navItem{
+          .navLink{
+            color: var(--black-color);
+            padding: 0rem 0.9rem;
+            font-size: 1rem;
+            font-weight: 600;
+
+            &:hover{
+              color: var(--second-color);
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width:960px){
+  .header{
+      .navbar{
+        .navList{
+          .navItem{
+            padding: 0 .9rem;
+          }
+        }
+      }
+  }
+} 
+@media screen and (min-width:1024px){
+  .header{
+    .logo{
+      a{
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

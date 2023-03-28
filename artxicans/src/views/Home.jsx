@@ -1,14 +1,19 @@
 import React from 'react'
 import SearchBox from '../components/common/SearchBox';
-import img1 from '../assets/products/guayabera1.jpg'; 
 import '../styles/Home.css';
+import Products from '../components/common/Products';
+/* import {FaUserAlt} from 'react-icons/fa'; */
+
 const Body = () => {
   return (
     <>
-        <SearchBox/>
-
+         {/* <div className="head-mobile"> */}
+            <SearchBox/>
+          {/*   <FaUserAlt />
+         </div> */}
+          <Products />
         {/* <h1 className="title"></h1> */}
-        <div className="body-container">
+       {/*  <div className="body-container">
           <div className="list-products">
             <div className="product">
               <img src={img1}  alt="Guayabera"/>
@@ -24,7 +29,7 @@ const Body = () => {
               </div>
             </div>
             </div>
-        </div>
+        </div> */}
     </>
   )
 }
